@@ -1,0 +1,40 @@
+{
+    "name": "cccRaim/flarum-jh-login",
+    "description": "改变登录方式使用精弘通行证进行登录.",
+    "type": "flarum-extension",
+    "keywords": ["zjut"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/cccRaim/flarum-jh-login/issues",
+        "source": "https://github.com/cccRaim/flarum-jh-login"
+    },
+    "homepage": "https://flarum.org",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://flarum.org/donate/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "cccRaim\\FlarumJHLogin\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "精弘通行证",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-id-card",
+                "backgroundColor": "#c34d4e",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
