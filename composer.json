@@ -1,5 +1,5 @@
 {
-    "name": "cccRaim/flarum-jh-login",
+    "name": "cccraim/flarum-jh-login",
     "description": "改变登录方式使用精弘通行证进行登录.",
     "type": "flarum-extension",
     "keywords": ["zjut"],
